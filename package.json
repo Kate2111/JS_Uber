@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://kate2111.github.io/Progect2_Uber",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d src"
   },
   "author": "",
   "license": "ISC",
