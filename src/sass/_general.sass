@@ -273,7 +273,7 @@ nav
 			
 .choice
 	height: 896px
-	padding: 57px 0 138px 0
+	padding: 57px 0 57px 0
 	background-image: url('../img/black_bg.jpg'), url('../img/choice_bg.jpg')
 	background-repeat: no-repeat, no-repeat
 	background-position-y: top, bottom
@@ -327,7 +327,38 @@ nav
 				&:before
 					background: url('../icons/tick_red.png') center (center / cover) no-repeat
 	&_descr
-		color: #1ca8c3			
+		color: #1ca8c3	
+	&_content
+		display: flex
+		justify-content: space-between	
+	&_tabs 
+		margin-top: 70px
+		list-style-type: none
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-bottom: 0
+		margin-left: 0
+	&_tab
+		width: 220px
+		height: 50px
+		margin: 0 5px
+		line-height: 48px
+		border: solid 1px #d0d0d0
+		font-size: 18px
+		font-weight: 500
+		color: #6b6b6b
+		text-transform: uppercase
+		text-align: center
+		cursor: pointer
+		transition: .5s all
+		&_active
+			background-color: #1ca8c3
+			color: #fff
+			border: none
+			&:hover 
+				box-shadow: 3px 3px 20px #1ca8c3
+				border: none
 
 .world
 	padding: 49px 0 49px 0
@@ -341,7 +372,7 @@ nav
 		font-size: 15px
 		margin-bottom: 0
 		text-align: center
-		color: #1fbad6
+		color: $main-color
 		text-decoration: none
 		text-transform: uppercase
 		transform: translate(-50%, 0)
@@ -416,7 +447,7 @@ footer
 		&_lang 
 			display: block 
 			margin: 0 auto
-			color: #1fbad6
+			color: $main-color
 			font-size: 11px
 			font-weight: 400
 			margin-top: 19px
