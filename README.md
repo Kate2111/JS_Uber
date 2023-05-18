@@ -1,3 +1,3 @@
-# Progect2_Uber
+# JS_Uber
 
-https://kate2111.github.io/Project2_Uber/
+https://kate2111.github.io/JS_Uber/
